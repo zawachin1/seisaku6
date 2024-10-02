@@ -1,0 +1,235 @@
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+}
+
+/* body */
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+/* h1見出し */
+h1 {
+  color:#e4f3bb;/* フォントの色 */
+  font-size: 90px;/* フォントの大きさ */
+  font-family: lobster;/* フォントの種類 */
+  text-align: center;/* 文字・画像を中央にそろえる */
+  background-image: url(hara/jpg);/* 背景画像 */
+  background-repeat: no-repeat;/* 背景のくり返しをやめる */
+  background-position: top center;/* 背景の位置 */
+  border-radius:90px;
+  border-style:solid;
+  border-width:10px;
+  padding-top:0px;
+  margin-bottom:0px;
+    
+}
+
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  background-image: url(zzz.gif);/* 背景画像 */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;/* 高さ */
+  padding-top: 150px;/* 上がわの余白 */
+}
+
+
+/* ナビゲーションの箱 */
+nav {
+  background-color: #663300;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* リスト全体 */
+nav ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+/* １つ１つのリスト */
+nav li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+/* リンク */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* リンクにふれた時 */
+nav a:hover {
+  color: #ffcc11;
+}
+
+
+/* ===== お店紹介のスタイル ===== */
+/* セクション */
+.shop {
+  background-color: #ffffee;/* 背景の色 */
+  color: #000000;
+}
+
+/* h2見出し */
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+color:#000000;
+}
+
+/* 段落 */
+.shop p {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding-top:40px;
+  height: 300px;
+  border-radius:45px;
+}
+
+/* 画像 */
+.shop img {
+  float: right;/* 画像や箱の回り込み */
+  padding-top:0px;
+}
+
+
+/* ===== パン紹介のスタイル ===== */
+/* セクション */
+.photo {
+  padding: 30px;
+  background-image: url(fff.jpg);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+
+/* h2見出し */
+.photo h2 {
+  color:#E6B00D;
+  border-color: #ffcc11;
+}
+
+/* h3見出し */
+.photo h3 {
+  color: #663300;
+}
+
+/* 段落 */
+.photo p {
+  color: #ffffff;
+  clear: left;/* 画像や箱の回り込みをやめる */
+}
+
+/* 大きな箱 */
+.big {
+  background-color: #ffffff;
+  width: 500px;/* 横幅 */
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;/* 影 */
+  float:left;
+  transform: rotate(-5deg);/* 回転させる */
+}
+
+/* 小さな箱 */
+.small {
+  background-color: #ffffff;
+  width: 240px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;
+  float:right;
+}
+/* 箱 */
+.box {
+  float: left;
+}
+
+
+
+/* ===== 値段表のスタイル ===== */
+/* セクション */
+.price {
+  padding: 30px;
+  background-image:url(sai.png);
+}
+
+/* h2見出し */
+.price h2 {
+  color: #ffffff;
+  border-color: #ffcc11;
+}
+
+/* 表 */
+.price table {
+  background-color: #ffffdd;
+  border-collapse: collapse;/* 表の隙間（すきま） */
+  width: 100%;
+}
+
+/* 表のセル */
+.price td {
+  border: 1px solid #ffcc11;
+  padding: 10px;
+}
+
+/* 表の見出しセル */
+.price th {
+  border: 1px solid #000000;
+  padding: 10px;
+  background-color: #ffcc11;
+  text-align: left;
+}
+
+/* 表の見出しセル（季節） */
+.season th {
+  background-color:#ffffdd;
+}
+
+
+/* ===== アクセス情報のスタイル ===== */
+/* セクション */
+.access {
+  padding: 30px;
+  background-color: #ffffdd;
+  height: 400px;
+  color: #663300;
+}
+
+/* h3見出し */
+.access h3 {
+  font-size: 50px;
+  font-family: lobster;
+  margin-top: 0px;
+}
+
+/* リスト */
+.access ul {
+  list-style-type: none;/* リストのマーカー */
+  padding-left: 0px;
+}
+
+/* 箱 */
+.access div {
+  float: left;
+  width: 50%;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  background-color: #663300;
+  color: #ffffff;
+}
